@@ -1,0 +1,93 @@
+.jobs{
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.jobs .text{
+    text-align: center;
+}
+
+.jobs .text h1{
+    font-family: 'Sen';
+    font-size: 44px;
+}
+
+.jobs .text p{
+    font-family: 'Poppins';
+}
+
+.jobs .group-card .card {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.jobs .group-card .location{
+    font-family: 'Poppins';
+    
+}
+
+.jobs .group-card .location img{
+    width: 8px;
+    height: 12px;
+    margin-right: 10px;
+    
+}
+
+.jobs .group-card .location img+img{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.jobs .row{
+    width: 400px;
+    background-color: #E9E9EE;
+    height: 1px;
+    margin-top: 25px;
+}
+
+.jobs .user{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.jobs .user img {
+    margin: 15px;
+    width: 34px;
+    height: 34px;
+}
+
+.jobs .user h1{
+    font-size: 14px;
+    width: 100px;
+    
+}
+
+.jobs .user p{
+    font-family: 'Poppins';
+    margin-left: 140px;
+    color: #5E626E;
+    float: right;
+}
+
+.jobs .button{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.jobs .button button{
+    padding: 10px 20px;
+    background-color: #FF5352;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 191px;
+    height: 64px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+}
+

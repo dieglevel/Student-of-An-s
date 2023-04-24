@@ -1,0 +1,105 @@
+.footer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.footer .newletters{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .newletters h1{
+   font-family: 'Sen';
+   font-size: 46px;
+   margin: 0;
+}
+
+.footer .newletters p{
+    font-family: 'Poppins';
+    color: #5E626E;
+    margin-top: 20px;
+}
+
+.footer .bar{
+    margin: 0 auto;
+    width: 501px;
+    padding: 10px;
+    background: #FFFFFF;
+    padding: 4px; 
+    border-radius: 4px;
+    position: relative;
+    top: 29px;
+
+}
+
+.footer .bar input{
+    border: none;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.footer .base {
+    height: max-content;
+    padding: 30px;
+    background-color: #0C1122;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer .left{
+    margin-right: 400px;
+}
+
+
+.footer .base .left h1{
+    color: white;
+    font-family: 'Sen';
+    font-size: 50px;
+}
+
+.footer .bar button{
+    background-color: #FF6652;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+
+.footer .contact img{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.footer .base .right{
+    display: flex;
+}
+
+.footer .base .text{
+    text-align: left;
+    margin-right: 70px;
+}
+
+.footer .base .text h1{
+    color: white;
+    font-family: 'Sen';
+    font-size: 16px;
+}
+
+.footer .base .text p{
+    color: #B3B7C5;
+    font-family: 'Poppins';
+    font-size: 14;
+}

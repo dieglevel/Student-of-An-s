@@ -1,0 +1,55 @@
+
+.about{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+.about .image{
+    width: 50%;
+}
+
+.about .image img{
+    width: 60%;
+}
+
+.about .text{
+    
+}
+
+
+
+.about .text h1{
+    font-family: 'Sen';
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
+.about .text p{
+    font-family: 'Poppins';
+    color: #5E626E;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.about .text-p{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about .text-p img{
+    width: 19px;
+    height: 12px;
+    margin-right: 22px;
+}
+
+.about .text-p p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+
+
+}

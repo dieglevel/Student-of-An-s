@@ -1,0 +1,161 @@
+ 
+
+
+
+
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.narvigation{
+     margin-left: 2%;
+     margin-right: 2%;
+     margin-top: 1%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+ }
+ 
+.narvigation .logo{
+    margin-right: 15%;
+}
+
+ .narvigation .logo-text{
+     font-family: 'Sen', sans-serif;
+     font-size: 500%;
+     margin: 0;
+ }
+ 
+ .narvigation .menu{
+    margin-right: 15%;
+ }
+ 
+ ul{
+     display: flex;
+     width: 152%;
+ }
+ 
+ li{
+
+     list-style-type: none;
+     margin-right: 10%;
+     
+ }
+ 
+ ul li a{
+     font-family: 'Poppins', sans-serif;
+     text-decoration: none;
+     color: black;
+     font-size: 150%;
+ 
+ }
+
+ 
+ .narvigation .active-a::after{
+     content: '';
+     background: #FF5352;
+     width: 7px;
+     height: 7px;
+     border-radius: 50%;
+     position: relative;
+     left: -50%;
+     top: 50%;
+     display: inline-block;
+ }
+ 
+ 
+ .narvigation .button {
+     align-items: center;
+     display: flex;
+     gap: 5%;
+ }
+ 
+ .narvigation .button .login a{
+     text-decoration: none;
+     font-family: 'Poppins';
+     font-weight: bolder;
+     font-size: 100%;
+     color: black;
+    
+ }
+ .narvigation .button .login{
+     border: 2px solid #0C1122;
+     border-radius: 10px;
+     padding-top: 3%;
+     padding-bottom: 3%;
+     padding-left: 7%;
+     padding-right: 7%;
+     width: 200px;
+ }
+ 
+ .narvigation .button .login a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 16px;
+    color: black;
+    width: 100%;
+ }
+ 
+ .narvigation .button .started a{
+     text-decoration: none;
+     font-family: 'Poppins';
+     font-weight: bolder;
+     font-size: 16px;
+     color: white;
+     width: 100%;
+     
+    
+ }
+ .narvigation .button .started{
+     border: 2px solid #0C1122;
+     border-radius: 10px;
+     background-color: #0C1122;
+     padding-top: 3%;
+     padding-bottom: 3%;
+     padding-left: 7%;
+     padding-right: 7%;
+     width: 200px;
+ }
+
+ 
+ 
+ 
+
+ @media only screen and (min-width: 320px) and (max-width: 640px) {
+    div{
+        text-align: center;
+        align-items: center;
+    }
+
+    .container{
+        max-width: max-content;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    body {
+      background-color: lightblue;
+    }
+
+    .narvigation {
+        margin: 0 auto;
+        width: 640px;
+    }
+
+    .narvigation .logo-text{
+        text-align: center;
+    }
+
+    .narvigation .menu{
+        display: none;
+    }
+
+    .narvigation .button{
+        display: none;
+    }
+  }

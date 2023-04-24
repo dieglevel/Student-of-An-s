@@ -1,0 +1,109 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
+.imgIllution{
+    
+}
+
+.imgIllution img{
+    width: 100%;
+}
+
+
+
+.body .group{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 5%;
+}
+
+
+.texts{
+    justify-content: center;
+    float: left;
+    text-align: left;
+
+ }
+ 
+.texts h1{
+     font-family: 'Sen', sans-serif;
+     font-size: 427%
+     
+ }
+ 
+.texts p{
+     font-family: 'Poppins';
+     color: #5E626F;
+     font-size: 139%
+ }
+
+.search{
+    box-shadow: 0px 16px 52px rgba(0, 0, 0, 0.07);
+    display: flex;
+    padding: 3%;
+    background-color: white;
+    width: 132%;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.search img{
+    width: 6%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.search input{
+    font-family: 'Poppins';
+    color: #A3A6B1;
+    border: none;
+    font-size: 120%;
+}
+
+.row-bar{
+    width: 8px;
+    height: 80px;
+    background-color: #F8F8F9;
+    
+}
+
+select{
+    font-family: 'Poppins';
+    color: #A3A6B1;
+    border: none;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.search-button{
+    align-items: center;
+    margin: 0;
+    margin-left: 3%;
+}
+
+.search-button button{
+    background-color: #FF6158;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    padding: 0px;
+}
+
+.search-button img{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}

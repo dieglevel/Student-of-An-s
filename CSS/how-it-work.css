@@ -1,0 +1,42 @@
+
+.how-it-work{
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+.how-it-work .text h1{
+    font-family: 'Sen';
+    font-size: 442%;
+}
+
+.how-it-work .text p{
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-align: center;
+}
+
+.group-card{
+    justify-content: center;
+    display: flex;
+}
+
+.card{
+    border:  1px solid #e3e3e3;
+    border-radius: 14px;
+    padding: 40px;
+    margin: 20px;
+    width: 33%;
+    height: max-content;
+    justify-content: center;
+}
+
+.card h1{
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+
+.card img{
+    width: 33%;
+}
